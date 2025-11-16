@@ -16,11 +16,11 @@ finish-args:
   - --share=network
   - --share=ipc
   - --filesystem=host:rw
-  - --filesystem=xdg-run/Nextcloud:create
+  - --filesystem=xdg-run/opencloud:create
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.freedesktop.secrets
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --own-name=com.nextcloudgmbh.Nextcloud
+  - --own-name=eu.opencloud.desktop
   - --talk-name=org.kde.kwalletd5
   - --talk-name=org.kde.kwalletd6
   - --env=TMPDIR=/var/tmp
